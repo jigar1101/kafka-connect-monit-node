@@ -7,11 +7,12 @@
 		"build": "cd client && yarn build",
 		"dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
 		"run-build-local": "yarn build && yarn server",
-		"prod": "cd server && node index.js"		
+		"prod": "cd server && node index.js"
 	},
 	"dependencies": {
 		"axios": "^0.18.0",
-		"express": "^4.16.2"
+		"express": "^4.16.2",
+		"nodemailer": "^4.6.6"
 	},
 	"devDependencies": {
 		"concurrently": "^3.5.0"
