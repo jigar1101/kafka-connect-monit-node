@@ -25,6 +25,7 @@ Update the `server/config/dev.config.js` & `server/config/dev.config.js` before 
 Kafka Connect Monit is very easy to install and deploy in a Docker container.
 
 Simply use the Dockerfile to build the image, one can modify the image name and the port to be exposed in the `build.sh` and `run.sh`
+Make sure you have `rsync` installed before following the below steps.
 
 ```sh
 cd docker
