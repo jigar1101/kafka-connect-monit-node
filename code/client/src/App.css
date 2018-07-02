@@ -1,0 +1,54 @@
+.app {
+  padding: 20px;
+}
+
+.connectors-list .connector .connector-details {
+  font-size: 14px;
+}
+
+.connectors-list .connector .connector-details .connector-name {
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+}
+
+.connectors-list .connector .connector-details .connector-status {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.connectors-list .connector .running {
+  color: green;
+}
+
+.connectors-list .connector .failed {
+  color: red;
+}
+
+.connectors-list .connector .tasks {
+  padding: 20px;
+}
+
+.connectors-list .connector .task-details .task-title {
+  display: inline-block;
+}
+
+.connectors-list .connector .task-details .task-name {
+  font-weight: bold;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0 10px;  
+}
+
+.connectors-list .connector .task-details .task-status {
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 10px;
+  display: inline-block;
+}
+
+.connectors-list .connector .task-details .task-trace {
+  padding: 10px;
+}
