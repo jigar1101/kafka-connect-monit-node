@@ -8,7 +8,18 @@ This application allows users to
 
 # Configuration
 
-Update the `server/config/dev.config.js` & `server/config/dev.config.js` before using the Kafka Connect Monitoring
+Update the `server/config/dev.config.js` & `server/config/dev.config.js` before using the Kafka Connect Monitoring.
+
+
+| Parameter | Description |
+| ------ | ------ |
+| `HOSTNAME` | Kafka Connect Hostname |
+| `EMAIL => HOST` | SMTP Hostname |
+| `EMAIL => PORT` | SMTP Port |
+| `EMAIL => FROM` | Email id **from** which the alerts should be sent |
+| `EMAIL => TO` | Email id **to** which the alerts should be sent |
+| `POLLING_TIME` | Interval in which the alerts should be sent |
+
 
 ### Docker
 Kafka Connect Monit is very easy to install and deploy in a Docker container.
