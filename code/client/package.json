@@ -1,7 +1,7 @@
 {
   "name": "kafka-connect-monit-client",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "proxy": "http://localhost:5000/",
   "dependencies": {
     "react": "^16.3.2",
