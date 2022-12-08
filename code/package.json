@@ -12,7 +12,7 @@
 	},
 	"dependencies": {
 		"axios": "^0.18.1",
-		"express": "^4.16.2",
+		"express": "^4.17.3",
 		"nodemailer": "^4.6.6"
 	},
 	"devDependencies": {
